@@ -1,7 +1,7 @@
 let colorScheme = 0;
 let background = document.getElementById("bg");
 
-body.onclick = switchColorScheme;
+window.onclick = switchColorScheme;
 
 
 function switchColorScheme() {
