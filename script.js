@@ -2,7 +2,7 @@ let colorScheme = 0;
 let background = document.getElementById("bg");
 
 background.onclick = switchColorScheme;
-document.write("wefopieubiufpiegunpwiubpoi");
+
 
 function switchColorScheme() {
 	switch(colorScheme) {
@@ -10,6 +10,7 @@ function switchColorScheme() {
 			colorScheme = 1;
 			background.src = background.src.replace("-light", "-dark");
 			document.write(colorScheme);
+			document.getElementById("p").innerHTML = "sopainuoiup";
 			break;
 		case 1:
 			colorScheme = 0;
