@@ -1,7 +1,7 @@
 let colorScheme = 0;
 let background = document.getElementById("bg");
 
-background.onclick = switchColorScheme;
+body.onclick = switchColorScheme;
 
 
 function switchColorScheme() {
@@ -14,7 +14,7 @@ function switchColorScheme() {
 		case 1:
 			colorScheme = 0;
 			background.src = background.src.replace("-dark", "-light");
-			document.write(colorScheme);
+			document.write(background.src);
 			break;
 	}
 }
