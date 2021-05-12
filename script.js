@@ -9,8 +9,7 @@ function switchColorScheme() {
 		case 0:
 			colorScheme = 1;
 			background.src = background.src.replace("-light", "-dark");
-			document.write(colorScheme);
-			document.getElementById("p").innerHTML = "sopainuoiup";
+			document.write(background.src);
 			break;
 		case 1:
 			colorScheme = 0;
