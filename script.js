@@ -2,6 +2,7 @@ let colorScheme = 0;
 let background = document.getElementById("bg");
 
 background.onclick = switchColorScheme;
+document.write("wefopieubiufpiegunpwiubpoi");
 
 function switchColorScheme() {
 	switch(colorScheme) {
